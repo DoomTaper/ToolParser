@@ -119,7 +119,6 @@ for data in js_data:
 		py_data.append(js2py.eval_js(data))
 for i in range(len(py_data)):
 	format_data[variables[i]] = py_data[i]
-#print format_data[variables[0]]
 output_file = open("./output2.txt", 'w')
 output_file.write(str(format_data))
 output_file.close()

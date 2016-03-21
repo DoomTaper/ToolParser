@@ -9,13 +9,11 @@ parsed_output {request:"all the requests", response':{'status_code':all status_c
 """
 
 import re
-#print dir(netliparsed_output.http.http1.read)
 rfi = open("/root/Desktop/hoppy.attack", 'r')
 data = rfi.read()
 rfi.close()
 pattern = re.compile(r"(GET /.*?)\n(?=\n\t\D{3} Parsed Response:)", re.S)
 output = pattern.findall(data)
-#print output
 req_filename = "req.txt"
 req_file_address = "/root/Desktop/"+req_filename
 res_filename = "res.txt"
@@ -41,10 +39,6 @@ for i in range(length):
 											'data':res_data 
 											}
 			}
-print parsed_output[1]['request']
-print parsed_output[1]['response']['status_code']
-print parsed_output[1]['response']['headers']
-print parsed_output[1]['response']['data']
 for i in range(length):
 	req_file = open(req_file_address, 'a')
 	req_file.write(parsed_output[i]['request'])
@@ -54,5 +48,3 @@ for i in range(length):
 	res_file.write(parsed_output[i]['response']['headers'])
 	res_file.write(parsed_output[i]['response']['data'])
 	res_file.close()
-
-#r"(?<=HTTP/\w.\w )(.*)"
