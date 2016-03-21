@@ -1,4 +1,4 @@
-# Tool_parser
+# ToolParser
 
 This project helps the user to parse different tools' captured HTTP traffic into following fields:
 
@@ -7,4 +7,4 @@ This project helps the user to parse different tools' captured HTTP traffic into
 3. *HTTP status code*
 4. *HTTP response body*
 
-Current **Skipfish** and **Hoppy** parser is in development
+Currently it supports **Skipfish** and **Hoppy** parser which are under development
