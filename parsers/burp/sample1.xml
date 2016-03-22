@@ -1,0 +1,615 @@
+<?xml version="1.1"?>
+<!-- NOTE: Any NULL bytes in requests and responses are preserved within this output, even though this strictly breaks the XML syntax. If your XML parser rejects the NULL bytes then you will need to remove or replace these bytes before parsing. Alternatively, you can use the option to base64-encode requests and responses. -->
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="1.6.30" exportTime="Tue Mar 22 02:18:46 IST 2016">
+  <item>
+    <time>Tue Mar 22 02:18:24 IST 2016</time>
+    <url><![CDATA[http://elearnix.org/css/none]]></url>
+    <host ip="31.220.16.186">elearnix.org</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method>GET</method>
+    <path><![CDATA[/css/none]]></path>
+    <extension>null</extension>
+    <request base64="false"><![CDATA[GET /css/none HTTP/1.1
+Host: elearnix.org
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:43.0) Gecko/20100101 Firefox/43.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://elearnix.org/css/main.css
+Cookie: style=null
+Connection: keep-alive
+
+]]></request>
+    <status>302</status>
+    <responselength>447</responselength>
+    <mimetype>HTML</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 302 Found
+Date: Mon, 21 Mar 2016 20:48:24 GMT
+Server: Apache
+Location: http://error.hostinger.eu/?
+Content-Length: 211
+Keep-Alive: timeout=2, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://error.hostinger.eu/?">here</a>.</p>
+</body></html>
+]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Tue Mar 22 02:18:46 IST 2016</time>
+    <url><![CDATA[http://elearnix.org/favicon.ico]]></url>
+    <host ip="31.220.16.186">elearnix.org</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method>GET</method>
+    <path><![CDATA[/favicon.ico]]></path>
+    <extension>ico</extension>
+    <request base64="false"><![CDATA[GET /favicon.ico HTTP/1.1
+Host: elearnix.org
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:43.0) Gecko/20100101 Firefox/43.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: style=null
+Connection: keep-alive
+
+]]></request>
+    <status>302</status>
+    <responselength>447</responselength>
+    <mimetype>HTML</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 302 Found
+Date: Mon, 21 Mar 2016 20:48:46 GMT
+Server: Apache
+Location: http://error.hostinger.eu/?
+Content-Length: 211
+Keep-Alive: timeout=2, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://error.hostinger.eu/?">here</a>.</p>
+</body></html>
+]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Tue Mar 22 02:18:27 IST 2016</time>
+    <url><![CDATA[http://elearnix.org/img/header/layerslider/2.jpg]]></url>
+    <host ip="31.220.16.186">elearnix.org</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method>GET</method>
+    <path><![CDATA[/img/header/layerslider/2.jpg]]></path>
+    <extension>jpg</extension>
+    <request base64="false"><![CDATA[GET /img/header/layerslider/2.jpg HTTP/1.1
+Host: elearnix.org
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:43.0) Gecko/20100101 Firefox/43.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://elearnix.org/
+Cookie: style=null
+Connection: keep-alive
+
+]]></request>
+    <status>302</status>
+    <responselength>447</responselength>
+    <mimetype>HTML</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 302 Found
+Date: Mon, 21 Mar 2016 20:48:23 GMT
+Server: Apache
+Location: http://error.hostinger.eu/?
+Content-Length: 211
+Keep-Alive: timeout=2, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://error.hostinger.eu/?">here</a>.</p>
+</body></html>
+]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Tue Mar 22 02:18:24 IST 2016</time>
+    <url><![CDATA[http://elearnix.org/img/header/layerslider/4.jpg]]></url>
+    <host ip="31.220.16.186">elearnix.org</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method>GET</method>
+    <path><![CDATA[/img/header/layerslider/4.jpg]]></path>
+    <extension>jpg</extension>
+    <request base64="false"><![CDATA[GET /img/header/layerslider/4.jpg HTTP/1.1
+Host: elearnix.org
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:43.0) Gecko/20100101 Firefox/43.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://elearnix.org/
+Cookie: style=null
+Connection: keep-alive
+
+]]></request>
+    <status>302</status>
+    <responselength>447</responselength>
+    <mimetype>HTML</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 302 Found
+Date: Mon, 21 Mar 2016 20:48:23 GMT
+Server: Apache
+Location: http://error.hostinger.eu/?
+Content-Length: 211
+Keep-Alive: timeout=2, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://error.hostinger.eu/?">here</a>.</p>
+</body></html>
+]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Tue Mar 22 02:18:25 IST 2016</time>
+    <url><![CDATA[http://elearnix.org/img/header/layerslider/skins/fullwidth/skin.css]]></url>
+    <host ip="31.220.16.186">elearnix.org</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method>GET</method>
+    <path><![CDATA[/img/header/layerslider/skins/fullwidth/skin.css]]></path>
+    <extension>css</extension>
+    <request base64="false"><![CDATA[GET /img/header/layerslider/skins/fullwidth/skin.css HTTP/1.1
+Host: elearnix.org
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:43.0) Gecko/20100101 Firefox/43.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://elearnix.org/
+Cookie: style=null
+Connection: keep-alive
+
+]]></request>
+    <status>302</status>
+    <responselength>447</responselength>
+    <mimetype>HTML</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 302 Found
+Date: Mon, 21 Mar 2016 20:48:24 GMT
+Server: Apache
+Location: http://error.hostinger.eu/?
+Content-Length: 211
+Keep-Alive: timeout=2, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://error.hostinger.eu/?">here</a>.</p>
+</body></html>
+]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Tue Mar 22 02:18:24 IST 2016</time>
+    <url><![CDATA[http://elearnix.org/js/jquery-easing-1.3.js]]></url>
+    <host ip="31.220.16.186">elearnix.org</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method>GET</method>
+    <path><![CDATA[/js/jquery-easing-1.3.js]]></path>
+    <extension>js</extension>
+    <request base64="false"><![CDATA[GET /js/jquery-easing-1.3.js HTTP/1.1
+Host: elearnix.org
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:43.0) Gecko/20100101 Firefox/43.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://elearnix.org/
+Cookie: style=null
+Connection: keep-alive
+
+]]></request>
+    <status>200</status>
+    <responselength>8357</responselength>
+    <mimetype>script</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 21 Mar 2016 20:48:22 GMT
+Server: Apache
+Last-Modified: Thu, 14 Mar 2013 23:20:04 GMT
+Accept-Ranges: bytes
+Content-Length: 8101
+Keep-Alive: timeout=2, max=100
+Connection: Keep-Alive
+Content-Type: application/javascript
+
+/*
+ * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
+ *
+ * Uses the built in easing capabilities added In jQuery 1.1
+ * to offer multiple easing options
+ *
+ * TERMS OF USE - jQuery Easing
+ * 
+ * Open source under the BSD License. 
+ * 
+ * Copyright ???? 2008 George McGinley Smith
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without modification, 
+ * are permitted provided that the following conditions are met:
+ * 
+ * Redistributions of source code must retain the above copyright notice, this list of 
+ * conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice, this list 
+ * of conditions and the following disclaimer in the documentation and/or other materials 
+ * provided with the distribution.
+ * 
+ * Neither the name of the author nor the names of contributors may be used to endorse 
+ * or promote products derived from this software without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY 
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ *  COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ *  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+ *  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+ * OF THE POSSIBILITY OF SUCH DAMAGE. 
+ *
+*/
+
+// t: current time, b: begInnIng value, c: change In value, d: duration
+jQuery.easing['jswing'] = jQuery.easing['swing'];
+
+jQuery.extend( jQuery.easing,
+{
+	def: 'easeOutQuad',
+	swing: function (x, t, b, c, d) {
+		//alert(jQuery.easing.default);
+		return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
+	},
+	easeInQuad: function (x, t, b, c, d) {
+		return c*(t/=d)*t + b;
+	},
+	easeOutQuad: function (x, t, b, c, d) {
+		return -c *(t/=d)*(t-2) + b;
+	},
+	easeInOutQuad: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return c/2*t*t + b;
+		return -c/2 * ((--t)*(t-2) - 1) + b;
+	},
+	easeInCubic: function (x, t, b, c, d) {
+		return c*(t/=d)*t*t + b;
+	},
+	easeOutCubic: function (x, t, b, c, d) {
+		return c*((t=t/d-1)*t*t + 1) + b;
+	},
+	easeInOutCubic: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return c/2*t*t*t + b;
+		return c/2*((t-=2)*t*t + 2) + b;
+	},
+	easeInQuart: function (x, t, b, c, d) {
+		return c*(t/=d)*t*t*t + b;
+	},
+	easeOutQuart: function (x, t, b, c, d) {
+		return -c * ((t=t/d-1)*t*t*t - 1) + b;
+	},
+	easeInOutQuart: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return c/2*t*t*t*t + b;
+		return -c/2 * ((t-=2)*t*t*t - 2) + b;
+	},
+	easeInQuint: function (x, t, b, c, d) {
+		return c*(t/=d)*t*t*t*t + b;
+	},
+	easeOutQuint: function (x, t, b, c, d) {
+		return c*((t=t/d-1)*t*t*t*t + 1) + b;
+	},
+	easeInOutQuint: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return c/2*t*t*t*t*t + b;
+		return c/2*((t-=2)*t*t*t*t + 2) + b;
+	},
+	easeInSine: function (x, t, b, c, d) {
+		return -c * Math.cos(t/d * (Math.PI/2)) + c + b;
+	},
+	easeOutSine: function (x, t, b, c, d) {
+		return c * Math.sin(t/d * (Math.PI/2)) + b;
+	},
+	easeInOutSine: function (x, t, b, c, d) {
+		return -c/2 * (Math.cos(Math.PI*t/d) - 1) + b;
+	},
+	easeInExpo: function (x, t, b, c, d) {
+		return (t==0) ? b : c * Math.pow(2, 10 * (t/d - 1)) + b;
+	},
+	easeOutExpo: function (x, t, b, c, d) {
+		return (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;
+	},
+	easeInOutExpo: function (x, t, b, c, d) {
+		if (t==0) return b;
+		if (t==d) return b+c;
+		if ((t/=d/2) < 1) return c/2 * Math.pow(2, 10 * (t - 1)) + b;
+		return c/2 * (-Math.pow(2, -10 * --t) + 2) + b;
+	},
+	easeInCirc: function (x, t, b, c, d) {
+		return -c * (Math.sqrt(1 - (t/=d)*t) - 1) + b;
+	},
+	easeOutCirc: function (x, t, b, c, d) {
+		return c * Math.sqrt(1 - (t=t/d-1)*t) + b;
+	},
+	easeInOutCirc: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return -c/2 * (Math.sqrt(1 - t*t) - 1) + b;
+		return c/2 * (Math.sqrt(1 - (t-=2)*t) + 1) + b;
+	},
+	easeInElastic: function (x, t, b, c, d) {
+		var s=1.70158;var p=0;var a=c;
+		if (t==0) return b;  if ((t/=d)==1) return b+c;  if (!p) p=d*.3;
+		if (a < Math.abs(c)) { a=c; var s=p/4; }
+		else var s = p/(2*Math.PI) * Math.asin (c/a);
+		return -(a*Math.pow(2,10*(t-=1)) * Math.sin( (t*d-s)*(2*Math.PI)/p )) + b;
+	},
+	easeOutElastic: function (x, t, b, c, d) {
+		var s=1.70158;var p=0;var a=c;
+		if (t==0) return b;  if ((t/=d)==1) return b+c;  if (!p) p=d*.3;
+		if (a < Math.abs(c)) { a=c; var s=p/4; }
+		else var s = p/(2*Math.PI) * Math.asin (c/a);
+		return a*Math.pow(2,-10*t) * Math.sin( (t*d-s)*(2*Math.PI)/p ) + c + b;
+	},
+	easeInOutElastic: function (x, t, b, c, d) {
+		var s=1.70158;var p=0;var a=c;
+		if (t==0) return b;  if ((t/=d/2)==2) return b+c;  if (!p) p=d*(.3*1.5);
+		if (a < Math.abs(c)) { a=c; var s=p/4; }
+		else var s = p/(2*Math.PI) * Math.asin (c/a);
+		if (t < 1) return -.5*(a*Math.pow(2,10*(t-=1)) * Math.sin( (t*d-s)*(2*Math.PI)/p )) + b;
+		return a*Math.pow(2,-10*(t-=1)) * Math.sin( (t*d-s)*(2*Math.PI)/p )*.5 + c + b;
+	},
+	easeInBack: function (x, t, b, c, d, s) {
+		if (s == undefined) s = 1.70158;
+		return c*(t/=d)*t*((s+1)*t - s) + b;
+	},
+	easeOutBack: function (x, t, b, c, d, s) {
+		if (s == undefined) s = 1.70158;
+		return c*((t=t/d-1)*t*((s+1)*t + s) + 1) + b;
+	},
+	easeInOutBack: function (x, t, b, c, d, s) {
+		if (s == undefined) s = 1.70158; 
+		if ((t/=d/2) < 1) return c/2*(t*t*(((s*=(1.525))+1)*t - s)) + b;
+		return c/2*((t-=2)*t*(((s*=(1.525))+1)*t + s) + 2) + b;
+	},
+	easeInBounce: function (x, t, b, c, d) {
+		return c - jQuery.easing.easeOutBounce (x, d-t, 0, c, d) + b;
+	},
+	easeOutBounce: function (x, t, b, c, d) {
+		if ((t/=d) < (1/2.75)) {
+			return c*(7.5625*t*t) + b;
+		} else if (t < (2/2.75)) {
+			return c*(7.5625*(t-=(1.5/2.75))*t + .75) + b;
+		} else if (t < (2.5/2.75)) {
+			return c*(7.5625*(t-=(2.25/2.75))*t + .9375) + b;
+		} else {
+			return c*(7.5625*(t-=(2.625/2.75))*t + .984375) + b;
+		}
+	},
+	easeInOutBounce: function (x, t, b, c, d) {
+		if (t < d/2) return jQuery.easing.easeInBounce (x, t*2, 0, c, d) * .5 + b;
+		return jQuery.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
+	}
+});
+
+/*
+ *
+ * TERMS OF USE - EASING EQUATIONS
+ * 
+ * Open source under the BSD License. 
+ * 
+ * Copyright ???? 2001 Robert Penner
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without modification, 
+ * are permitted provided that the following conditions are met:
+ * 
+ * Redistributions of source code must retain the above copyright notice, this list of 
+ * conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice, this list 
+ * of conditions and the following disclaimer in the documentation and/or other materials 
+ * provided with the distribution.
+ * 
+ * Neither the name of the author nor the names of contributors may be used to endorse 
+ * or promote products derived from this software without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY 
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ *  COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ *  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+ *  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+ * OF THE POSSIBILITY OF SUCH DAMAGE. 
+ *
+ */]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Tue Mar 22 02:18:23 IST 2016</time>
+    <url><![CDATA[http://elearnix.org/js/jquery-transit-modified.js]]></url>
+    <host ip="31.220.16.186">elearnix.org</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method>GET</method>
+    <path><![CDATA[/js/jquery-transit-modified.js]]></path>
+    <extension>js</extension>
+    <request base64="false"><![CDATA[GET /js/jquery-transit-modified.js HTTP/1.1
+Host: elearnix.org
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:43.0) Gecko/20100101 Firefox/43.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://elearnix.org/
+Cookie: style=null
+Connection: keep-alive
+Range: bytes=2568-
+If-Range: Thu, 14 Mar 2013 23:20:04 GMT
+
+]]></request>
+    <status>206</status>
+    <responselength>4305</responselength>
+    <mimetype>script</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 206 Partial Content
+Date: Mon, 21 Mar 2016 20:48:22 GMT
+Server: Apache
+Last-Modified: Thu, 14 Mar 2013 23:20:04 GMT
+Accept-Ranges: bytes
+Content-Length: 3999
+Content-Range: bytes 2568-6566/6567
+Keep-Alive: timeout=2, max=100
+Connection: Keep-Alive
+Content-Type: application/javascript
+
+=t}}}p("S");p("1u");p("U");p("R");p("1p");p("1d");p("16");p("1v");p("18");p("1t");p("1s");p("x",J);p("y",J);f.1l={1n:j(e,t){k n=E t==="1m"?t.1w(","):t.3s===1O?t:[t];n.3u(e);f.1l.G.Q(4,n)},G:j(e){k t=1O.1l.3R.Q(3t,[1]);7(4.1o[e]){4.1o[e].Q(4,t)}L{4[e]=t.1y(",")}},N:j(e){7(4.1q[e]){q 4.1q[e].Q(4)}L{q 4[e]||0}},1o:{1p:j(e){4.1p=v(e,"V")},1d:j(e){4.1d=v(e,"V")},16:j(e){4.16=v(e,"V")},S:j(e,t){7(t===B){t=e}4.S=e+","+t},1u:j(e,t,n){7(t===B){t=e}7(n===B){n=e}4.1u=e+","+t+","+n},1t:j(e){4.1t=v(e,"V")},1s:j(e){4.1s=v(e,"V")},18:j(e){4.18=v(e,"M")},x:j(e){4.G("U",e,D)},y:j(e){4.G("U",D,e)},3C:j(e){4.G("R",e,D,D)},3D:j(e){4.G("R",D,e,D)},3M:j(e){4.G("R",D,D,e)},U:j(e,t){7(4.X===B){4.X=0}7(4.W===B){4.W=0}7(e!==D&&e!==B){4.X=v(e,"M")}7(t!==D&&t!==B){4.W=v(t,"M")}4.U=4.X+","+4.W},R:j(e,t,n){7(4.1i===B){4.1i=0}7(4.1b===B){4.1b=0}7(4.17===B){4.17=0}7(e!==D&&e!==B){4.1i=v(e,"M")}7(t!==D&&t!==B){4.1b=v(t,"M")}7(n!==D&&n!==B){4.17=v(n,"M")}4.R=4.1i+","+4.1b+","+4.17}},1q:{x:j(){q 4.X||0},y:j(){q 4.W||0},S:j(){k e=(4.S||"1,1,1").1w(",");7(e[0]){e[0]=1a(e[0])}7(e[1]){e[1]=1a(e[1])}7(e[2]){e[2]=1a(e[2])}q e[0]===e[1]===e[2]?e[0]:e},1v:j(){k e=(4.1v||"0,0,0,3L").1w(",");1c(k t=0;t<=3;++t){7(e[t]){e[t]=1a(e[t])}}7(e[3]){e[3]=v(e[3],"V")}q e}},1U:j(e){k t=4;e.27(/([a-3N-3O-9]+)\\((.*?)\\)/g,j(e,n,r){t.1n(n,r)})},1x:j(e){k t=[];1c(k r K 4){7(4.1V(r)){7(!n.1X&&(r==="1d"||r==="16"||r==="18"||r==="T")){3P}7(r[0]!=="3K"){7(e&&r==="S"){t.Y(r+"3d("+4[r]+",1)")}L 7(e&&r==="U"){t.Y(r+"3d("+4[r]+",0)")}L{t.Y(r+"("+4[r]+")")}}}}q t.1y(" ")}};e.1I.I=e.1I.H=j(t,r,i,s){k o=4;k a=0;k f=J;7(E r==="j"){s=r;r=B}7(E i==="j"){s=i;i=B}7(E t.1F!=="B"){i=t.1F;12 t.1F}7(E t.1A!=="B"){r=t.1A;12 t.1A}7(E t.1G!=="B"){s=t.1G;12 t.1G}7(E t.11!=="B"){f=t.11;12 t.11}7(E t.1B!=="B"){a=t.1B;12 t.1B}7(E r==="B"){r=e.1C.1D.1E}7(E i==="B"){i=e.1e.1E}r=m(r);k c=h(t,r,i,a);k p=e.H.1N&&n.I;k d=p?1z(r,10)+1z(a,10):0;7(d===0){k v=j(e){o.13(t);7(s){s.Q(o)}7(e){e()}};l(o,f,v);q o}k g={};k y=j(r){k i=1Q;k a=j(){7(i){o.3J(u,a)}7(d>0){o.1g(j(){4.F[n.I]=g[4]||D})}7(E s==="j"){s.Q(o)}7(E r==="j"){r()}};7(d>0&&u&&e.H.1L){i=J;o.3F(u,a)}L{3E.3G(a,d)}o.1g(j(){7(d>0){4.F[n.I]=c}e(4).13(t)})};k b=j(e){4.3H;y(e)};l(o,f,b);q 4};e.H.3I=h})(3B)',62,262,'||||this|||if||||||||||||function|var||||||return||||||cubic|||bezier||undefined|transform|null|typeof|style|set|transit|transition|true|in|else|px|get||cssHooks|apply|translate3d|scale|transformOrigin|translate|deg|_translateY|_translateX|push|||queue|delete|css|55||rotateY|_translate3dZ|perspective||parseFloat|_translate3dY|for|rotateX|cssEase|padding|each|ease|_translate3dX|out|margin|prototype|string|setFromString|setter|rotate|getter|05|skewY|skewX|scale3d|rotate3d|split|toString|join|parseInt|duration|delay|fx|speeds|_default|easing|complete|propertyMap|fn|support|165|useTransitionEnd|355|enabled|Array|03|false|045|transitionEnd|95|parse|hasOwnProperty|175|transform3d|toLowerCase|68|86|data|||new||transitionDelay|replace||ms|easeOutCubic|955|515|645|215|easeInOutCubic|easeInQuart|61|895|easeOutQuad|easeInExpo|135|785|easeInOutCirc|Moz|795|easeInQuad|easeInOutExpo|easeOutExpo|035|085|82|easeInOutQuad|98|04|easeInCirc|335|94|075|53|easeOutCirc|455|camelCase|cssNumber|div|match|createElement|navigator|userAgent|indexOf|cssProps|inArray|document|paddingTop|modifiedForLayerSlider|marginBottom|marginRight|marginTop|version|paddingBottom|paddingRight|paddingLeft|chrome|685||toUpperCase|MSTransitionEnd|substr|snap|charAt|675||055|easeInCubic|msTransition||webkitTransitionEnd|OTransition|transitionend|MozTransition|oTransitionEnd|marginLeft|WebkitTransition|length|90deg|Webkit|275|WebkitTransform|instanceof|jquery|constructor|arguments|unshift|265|easeInOutBack|735|easeInBack|easeOutBack|885|jQuery|t3dx|t3dy|window|bind|setTimeout|offsetWidth|getTransitionValue|unbind|_|0deg|t3dz|zA|Z0|continue|445|slice|84|easeInOutSine|07|easeInSine|easeInOutQuint|755|855|06|easeOutQuint|745|easeInOutQuart|575|||||565|easeOutQuart|easeOutSine|easeInQuint|715|77'.split('|')))
+]]></response>
+    <comment></comment>
+  </item>
+  <item>
+    <time>Tue Mar 22 02:18:23 IST 2016</time>
+    <url><![CDATA[http://elearnix.org/js/styleswitcher.js]]></url>
+    <host ip="31.220.16.186">elearnix.org</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method>GET</method>
+    <path><![CDATA[/js/styleswitcher.js]]></path>
+    <extension>js</extension>
+    <request base64="false"><![CDATA[GET /js/styleswitcher.js HTTP/1.1
+Host: elearnix.org
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:43.0) Gecko/20100101 Firefox/43.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://elearnix.org/
+Cookie: style=null
+Connection: keep-alive
+
+]]></request>
+    <status>200</status>
+    <responselength>2095</responselength>
+    <mimetype>script</mimetype>
+    <response base64="false"><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 21 Mar 2016 20:48:22 GMT
+Server: Apache
+Last-Modified: Thu, 14 Mar 2013 23:20:18 GMT
+Accept-Ranges: bytes
+Content-Length: 1839
+Keep-Alive: timeout=2, max=100
+Connection: Keep-Alive
+Content-Type: application/javascript
+
+function setActiveStyleSheet(title) {
+  var i, a, main;
+  for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
+    if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title")) {
+      a.disabled = true;
+      if(a.getAttribute("title") == title) a.disabled = false;
+    }
+  }
+}
+
+function getActiveStyleSheet() {
+  var i, a;
+  for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
+    if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title") && !a.disabled) return a.getAttribute("title");
+  }
+  return null;
+}
+
+function getPreferredStyleSheet() {
+  var i, a;
+  for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
+    if(a.getAttribute("rel").indexOf("style") != -1
+       && a.getAttribute("rel").indexOf("alt") == -1
+       && a.getAttribute("title")
+       ) return a.getAttribute("title");
+  }
+  return null;
+}
+
+function createCookie(name,value,days) {
+  if (days) {
+    var date = new Date();
+    date.setTime(date.getTime()+(days*24*60*60*1000));
+    var expires = "; expires="+date.toGMTString();
+  }
+  else expires = "";
+  document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for(var i=0;i < ca.length;i++) {
+    var c = ca[i];
+    while (c.charAt(0)==' ') c = c.substring(1,c.length);
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+  }
+  return null;
+}
+
+window.onload = function(e) {
+  var cookie = readCookie("style");
+  var title = cookie ? cookie : getPreferredStyleSheet();
+  setActiveStyleSheet(title);
+}
+
+window.onunload = function(e) {
+  var title = getActiveStyleSheet();
+  createCookie("style", title, 365);
+}
+
+var cookie = readCookie("style");
+var title = cookie ? cookie : getPreferredStyleSheet();
+setActiveStyleSheet(title);]]></response>
+    <comment></comment>
+  </item>
+</items>
