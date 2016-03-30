@@ -7,4 +7,4 @@ This project helps the user to parse different tools' captured HTTP traffic into
 3. *HTTP status code*
 4. *HTTP response body*
 
-Currently it supports **Skipfish** and **Hoppy** parser which are under development
+Currently it supports **Skipfish**, **Hoppy** and **Burp** parser which needs improvement. 
